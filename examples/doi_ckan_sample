@@ -1,38 +1,38 @@
 [
     {
-        "title": "Data Catalog",
+        "title": "DOI Test Data Catalog",
         "description": "Version 1.0", 
         "keyword": ["catalog"], 
-        "modified": "2013-05-09",
-        "publisher": "US Department of X",
-        "contactPoint": "John Doe",
-        "mbox": "john.doe@agency.gov",
+        "modified": "2013-10-16",
+        "publisher": "US Department of the Interior",
+        "contactPoint": "Jerry Johnston",
+        "mbox": "jerry.johnston@doi.gov",
         "identifier": "1",
         "accessLevel": "public",
         "distribution": [
             {
-                "accessURL": "http://agency.gov/data.json",
+                "accessURL": "http://data.doi.gov/data.json",
                 "format": "application/json"
             }
         ]  
     },
     {
-        "title": "Public Elementary/Secondary Listing",
-        "description": "The purpose of the CCD nonfiscal surveys is to provide a listing of all schools and agencies providing free public elementary and secondary education, along with basic descriptive statistical information on each school and agency listed. Penalties apply for misuse, seehttp://nces.ed.gov/ncesglobal/data_usage_agreement.asp for more details.", 
-        "keyword": ["education","schools","children","locations","gis"], 
+        "title": "Screening level contaminant survey of the Rachel Carson National Wildlife Refuge",
+        "description": "Rachel Carson National Wildlife Refuge lies within the Portsmouth, NH  Portland, ME urban corridor, and is situated within watersheds that reflect the developed nature of the corridor. This refuge receives point and nonpoint discharges from numerous municipalities and industries, including Maremont Corp., a historic polluter of Goosefare Brook. Two Superfund sites Saco Tannery and Saco Landfill are within watersheds potentially affecting the refuge, and Routes 1 and 95 are adjacent, major, potential sources of metals and petroleum hydrocarbons. Our objective was to determine if contaminants on Rachel Carson NWR are adversely affecting or potentially could affect wildlife resources. This objective was addressed by conducting a screening level contaminant survey of the major tributaries in each of the ten divisions that comprise the refuge.", 
+        "keyword": ["wildlife", "locations","gis"], 
         "modified": "2011-11-19T12:00:00Z",
-        "publisher": "US Department of Education",
+        "publisher": "US Department of the Interior",
         "contactPoint": "Jane Doe",
         "mbox": "Jane.doe@ed.gov",
-        "identifier": "gov-doe-nces-1121",
+        "identifier": "143e06b2-2be2-4201-8705-78b98bbade8f",
         "accessLevel": "public",
         "bureauCode": ["018:10"],
         "programCode": ["018:001"],
         "accessLevelComment": null,
         "distribution": [
             {
-                "accessURL": "https://explore.data.gov/views/ykv5-fn9t/rows.csv?accessType=DOWNLOAD", 
-                "format": "text/csv"
+                "accessURL": "http://ecos.fws.gov/ServCatFiles/reference/holding/33305?accessType=DOWNLOAD", 
+                "format": "application/unknown"
             }
         ],
         "webService": "http://explore.data.gov/api/views/ykv5-fn9t/rows.json", 
